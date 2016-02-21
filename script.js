@@ -1,6 +1,6 @@
 //New additions beyond clocks
 //the font awesome icon for the clock logo
-var clockSwitcher = "<br><br><i class='fa fa-clock-o'  onclick='switchClock()'></i>";
+var clockSwitcher = "<br><br><i class='fa fa-clock-o'  onclick='switchClock()' title='Switch Clock'></i>";
 
 
 
