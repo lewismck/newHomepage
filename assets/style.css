@@ -1,0 +1,61 @@
+/*
+====================
+Body and background
+====================
+*/
+body{
+	font: 300 16px/22px "lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+	background-repeat: repeat-x;
+    animation:  background-image fadein 0.5s;
+    -moz-animation: background-image fadein 0.5s; /* Firefox */
+    -webkit-animation: background-image fadein 0.5s; /* Safari and Chrome */
+    -o-animation: background-image fadein 0.5s; /* Opera */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Taken from some random jsfiddle for easy centering I still don't understand parts of bootstrap somehow lol  http://jsfiddle.net/hashem/ut5sbqvz/*/
+.centered{
+	align: center;
+}
+.jumbotron{
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	background: none;
+	/*background-color: black;
+  background-color: rgba(255,255,255,0.3);*/
+}
+
+.col-md-12{
+	border: 2px solid white;
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.1);
+	padding-bottom: 2%;
+	padding-top: 2%;
+
+}
+
+i{
+	cursor: pointer;
+}
+/*
+====================
+typography
+====================
+*/
+h1{
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: #B4DFFC;
+}
